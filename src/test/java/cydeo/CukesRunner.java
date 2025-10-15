@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "cydeo",
         dryRun = false,
-        tags = "@test1 or @test2",
         publish = true
 
 )
