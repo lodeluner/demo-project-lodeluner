@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git 'https://github.com/lodeluner/demo-project.lodeluner'
+        git 'https://github.com/lodeluner/demo-project-lodeluner.git'
     }
 
     stage('Run tests'){
