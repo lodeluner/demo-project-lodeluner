@@ -1,12 +1,12 @@
 Feature: The application should be running
 
-  @test1
+  @smoke @test1
   Scenario: simple search
     Given I am on the home page
     When I search for "wooden spoon"
     Then I should see the results
 
-  @test2
+  @regression @test2
   Scenario: another search
     Given I am on the home page
     When I search for "useless box"
